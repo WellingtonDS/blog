@@ -394,15 +394,6 @@
       "photos": null,
       "sold": "false",
       "user_id": "wsantos@teste.com",
-      "id": "uzJzcPM"
-    },
-    {
-      "name": "aprenda a fazer",
-      "price": "15",
-      "description": "Minicurso faça voce mesmo\n",
-      "photos": null,
-      "sold": "false",
-      "user_id": "wsantos@teste.com",
       "id": "PY6nhph"
     },
     {
@@ -566,15 +557,6 @@
       "sold": "false",
       "user_id": "wsantos@teste.com",
       "id": "Iuf8xn6"
-    },
-    {
-      "name": "asdasd",
-      "price": "555",
-      "description": "asdasd",
-      "photos": null,
-      "sold": "false",
-      "user_id": "wsantos@teste.com",
-      "id": "eW9gnYX"
     }
   ]
 }
