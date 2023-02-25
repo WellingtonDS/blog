@@ -1,0 +1,580 @@
+{
+  "user": [
+    {
+      "id": "Joao@teste.com",
+      "name": "João",
+      "email": "wsantos@teste.com",
+      "password": "12345",
+      "code": "12345-678",
+      "street": "Rua Ali Perto",
+      "number": "150",
+      "district": "teste2",
+      "city": "Rio de Janeiro",
+      "state": "RJ"
+    },
+    {
+      "id": "wsantos@teste.com",
+      "name": "Wellington dos Santos",
+      "email": "wsantos@teste.com",
+      "password": "12345",
+      "code": "05842-080",
+      "street": "Rua João Carneiro",
+      "number": "12",
+      "district": "Jardim Casablanca",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    {
+      "id": "wsantos@teste.com.br",
+      "name": "Pedro",
+      "email": "wsantos@teste.com.br",
+      "password": "12345132132",
+      "code": "05640-004",
+      "street": "Rua João Carneiro",
+      "number": "12",
+      "district": "Jardim Londrina",
+      "city": "SÃO PAULO",
+      "state": "SP"
+    },
+    {
+      "id": "marcos@gmail.com",
+      "name": "marcos",
+      "email": "examplo@gmail.com",
+      "password": "12345",
+      "code": "05756-230",
+      "street": "Rua Caratatina",
+      "number": "15",
+      "district": "Vila Nova Pirajussara",
+      "city": "São Paulo",
+      "state": "SP"
+    },
+    {
+      "id": "Felipe@gmail.com",
+      "name": "felipe",
+      "email": "example@gmail.com",
+      "password": "12345",
+      "code": "05836-350",
+      "street": "Avenida Tomás de Sousa",
+      "number": "13",
+      "district": "Jardim Monte Azul",
+      "city": "São Paulo",
+      "state": "SP"
+    }
+  ],
+  "transacao": [
+    {
+      "comprador_id": "wsantos@teste.com",
+      "vendedor_id": "wsantos@teste.com",
+      "product": {
+        "id": "notebook",
+        "name": "Notebook",
+        "user_id": "wsantos@teste.com",
+        "price": "4999",
+        "sold": "false",
+        "description": "Esse é um novo notebook.",
+        "photos": null
+      },
+      "endereco": {
+        "code": "12345-678",
+        "street": "Rua Ali Perto",
+        "number": "150",
+        "district": "teste2",
+        "city": "Rio de Janeiro",
+        "state": "RJ"
+      },
+      "id": 1
+    },
+    {
+      "comprador_id": "joao@teste.com.br",
+      "vendedor_id": "wsantos@teste.com",
+      "product": {
+        "id": "notebook",
+        "name": "Notebook",
+        "user_id": "wsantos@teste.com",
+        "price": "4999",
+        "sold": "false",
+        "description": "Esse é um novo notebook.",
+        "photos": null
+      },
+      "endereco": {
+        "code": "05756-230",
+        "street": "Rua Caratatina",
+        "number": "12",
+        "district": "Vila Nova Pirajussara",
+        "city": "São Paulo",
+        "state": "SP"
+      },
+      "id": 2
+    },
+    {
+      "comprador_id": "wsantos@teste.com",
+      "vendedor_id": "wsantos@teste.com",
+      "product": {
+        "id": "notebook",
+        "name": "Notebook",
+        "user_id": "wsantos@teste.com",
+        "price": "4999",
+        "sold": "false",
+        "description": "Esse é um novo notebook.",
+        "photos": null
+      },
+      "endereco": {
+        "code": "12345-678",
+        "street": "Rua Ali Perto",
+        "number": "150",
+        "district": "teste2",
+        "city": "Rio de Janeiro",
+        "state": "RJ"
+      },
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "comprador_id": "wsantos@teste.com",
+      "vendedor_id": "wsantos@teste.com",
+      "product": {
+        "id": "notebook",
+        "name": "Notebook",
+        "user_id": "wsantos@teste.com",
+        "price": "4999",
+        "sold": "false",
+        "description": "Esse é um novo notebook.",
+        "photos": null
+      },
+      "endereco": {
+        "code": "12345-678",
+        "street": "Rua Ali Perto",
+        "number": "150",
+        "district": "teste2",
+        "city": "Rio de Janeiro",
+        "state": "RJ"
+      },
+      "id": 5
+    }
+  ],
+  "product": [
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "user_id": "wsantos@teste.com",
+      "price": "4999",
+      "sold": "false",
+      "description": "Esse é um novo notebook.",
+      "photos": null
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "user_id": "wsantos@teste.com",
+      "price": "1399",
+      "sold": "false",
+      "description": "Esse é um novo tablet.",
+      "photos": null
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "user_id": "wsantos@teste.com",
+      "price": "4999",
+      "sold": "false",
+      "description": "Esse é um novo notebook.",
+      "photos": null
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "user_id": "wsantos@teste.com",
+      "price": "1999",
+      "sold": "false",
+      "description": "Esse é um novo smartphone.",
+      "photos": null
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "user_id": "wsantos@teste.com",
+      "price": "1399",
+      "sold": "false",
+      "description": "Esse é um novo tablet.",
+      "photos": null
+    },
+    {
+      "id": "notebook",
+      "name": "Notebook",
+      "user_id": "wsantos@teste.com",
+      "price": "4999",
+      "sold": "false",
+      "description": "Esse é um novo notebook.",
+      "photos": null
+    },
+    {
+      "id": "smartphone",
+      "name": "Smartphone",
+      "user_id": "wsantos@teste.com",
+      "price": "1999",
+      "sold": "false",
+      "description": "Esse é um novo smartphone.",
+      "photos": null
+    },
+    {
+      "id": "tablet",
+      "name": "Tablet",
+      "user_id": "wsantos@teste.com",
+      "price": "1399",
+      "sold": "false",
+      "description": "Esse é um novo tablet.",
+      "photos": null
+    },
+    {
+      "name": "teste",
+      "price": "2555",
+      "description": "esse é um teste",
+      "photos": null,
+      "user_id": "",
+      "id": "dgxL2ZQ"
+    },
+    {
+      "name": "teste",
+      "price": "2555",
+      "description": "esse é um teste",
+      "photos": null,
+      "user_id": "",
+      "id": "8-0hmBL"
+    },
+    {
+      "name": "teste",
+      "price": "55",
+      "description": "teste",
+      "photos": null,
+      "sold": "false",
+      "user_id": "",
+      "id": "xMaehKJ"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "P4p_0Zc"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "-iipxs-"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "RKPicb0"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "sF2_vZq"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "G8jSei8"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "R_1PO1P"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "7OamSQM"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "ZyYDLu6"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "QpKjH3O"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "9OLr4lR"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "4SzUSW0"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "zqF8bj1"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "VASwIYJ"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "kBTZO7e"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "22zHwzJ"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "uzJzcPM"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "PY6nhph"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "bLTZEdq"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "zUJ2V_-"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "ZpKZR8K"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "t1NfS1Q"
+    },
+    {
+      "name": "aprenda a fazer",
+      "price": "15",
+      "description": "Minicurso faça voce mesmo\n",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "VXV9DEX"
+    },
+    {
+      "name": "asdasd",
+      "price": "555",
+      "description": "asdasd",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "fUSPt9D"
+    },
+    {
+      "name": "asdasd",
+      "price": "555",
+      "description": "asdasd",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "Ksd-TNa"
+    },
+    {
+      "name": "asdasd",
+      "price": "555",
+      "description": "asdasd",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "y_sNOrO"
+    },
+    {
+      "name": "asdasd",
+      "price": "555",
+      "description": "asdasd",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "A7sux0X"
+    },
+    {
+      "name": "asdasd",
+      "price": "555",
+      "description": "asdasd",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "5pDohv6"
+    },
+    {
+      "name": "asdasd",
+      "price": "555",
+      "description": "asdasd",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "JJRtm_c"
+    },
+    {
+      "name": "asdasd",
+      "price": "555",
+      "description": "asdasd",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "hCZZvqF"
+    },
+    {
+      "name": "asdasd",
+      "price": "555",
+      "description": "asdasd",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "qDp9k0s"
+    },
+    {
+      "name": "asdasd",
+      "price": "555",
+      "description": "asdasd",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "_hNgoWH"
+    },
+    {
+      "name": "asdasd",
+      "price": "555",
+      "description": "asdasd",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "wVzfwwj"
+    },
+    {
+      "name": "asdasd",
+      "price": "555",
+      "description": "asdasd",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "Ht5_rgh"
+    },
+    {
+      "name": "asdasd",
+      "price": "555",
+      "description": "asdasd",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "ZSwkYgI"
+    },
+    {
+      "name": "asdasd",
+      "price": "555",
+      "description": "asdasd",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "Iuf8xn6"
+    },
+    {
+      "name": "asdasd",
+      "price": "555",
+      "description": "asdasd",
+      "photos": null,
+      "sold": "false",
+      "user_id": "wsantos@teste.com",
+      "id": "eW9gnYX"
+    }
+  ]
+}

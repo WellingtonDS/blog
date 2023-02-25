@@ -1,0 +1,14 @@
+@import '../../styles/colors.scss';
+@import '../../styles/variables.scss';
+
+.add-product {
+    display: grid;
+    grid-template-columns: 100px 1rf;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.btn {
+    grid-column: 2;
+    
+}
